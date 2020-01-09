@@ -16,5 +16,10 @@
 		"forum": "https://stackoverflow.com/tags/ckeditor",
 		"wiki": "https://ckeditor.com/docs/ckeditor4/latest/",
 		"source": "https://github.com/ckeditor/ckeditor4"
+	},
+	"autoload": {
+		"psr-4": {
+			"ckeditor\\ckeditor\\": "/"
+		}
 	}
 }
