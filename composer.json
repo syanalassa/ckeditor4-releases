@@ -21,5 +21,12 @@
 		"psr-4": {
 			"ckeditor\\ckeditor\\": "/"
 		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"ckeditor\\ckeditor\\ImageServiceProvider"
+			]
+		}
 	}
 }
