@@ -19,14 +19,11 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"ckeditor\\ckeditor\\": "/"
+			"Ckeditor\\Ckeditor\\": "./"
 		}
 	},
-	"extra": {
-		"laravel": {
-			"providers": [
-				"ckeditor\\ckeditor\\ImageServiceProvider"
-			]
-		}
-	}
+	"require": {
+		"illuminate/support": "~6.0"
+	},
+	"minimum-stability": "dev"
 }
