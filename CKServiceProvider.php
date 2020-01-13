@@ -1,6 +1,6 @@
 <?php
 namespace Ckeditor\Ckeditor;
-class ServiceProvider extends \Illuminate\Support\ServiceProvider
+class CKServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     public function boot()
     {
